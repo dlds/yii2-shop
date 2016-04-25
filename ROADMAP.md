@@ -1,8 +1,48 @@
 # CATALOG
 - PRODUCTS
-  - PROPERTIES
+  - Basic   
+    - type [int]
+    - title [string]
+    - code [string]
+    - is_active [boolean]
+    - available_for_order [boolean]
+    - perex [string]
+    - description [string]
+    - supplier
+  - Prices
+    - wholesale without VAT [float]
+    - retail wihout VAT [float]
+    - TAX rule [int]
+    - retail final [float]
+    - discount [float]
+  - SEO
+    - meta title [string]
+    - meta descr [string]
+    - SEO url [string]
+  - Categories
+    - assigned categories
+    - default category
+  - Delivery
+  - Stocks
+    - use own store system
+    - warehouses
+  - Images
+  - Attributes
+  - Similar products
+  - 
 - CATEGORIES
+  - title
+  - is_active
+  - tree
+  - perex
+  - description
+  - image
+  - meta title
+  - meta descr
+  - seo url
+  - 
 - SUPPLIERS
+- ATTRIBUTES
 
 # PURCHASES
 - ORDERS
