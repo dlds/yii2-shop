@@ -16,7 +16,6 @@
         }
     ],
     "require": {
-        "dlds/yii2-giixer": "~3.0.0"
     },
         "require-dev": {
         "yiisoft/yii2-codeception": "*",
